@@ -12,6 +12,7 @@ and /Desktop/socialmedia/socialmediaproject$ celery -A socialmediaproject beat -
 
 I did not get Instagram data beacuse they does not give permission to make a test app.Without test app we can use its api.
 
+Python version =>3.8.10
 
 Required packages for run this application ==>
 
