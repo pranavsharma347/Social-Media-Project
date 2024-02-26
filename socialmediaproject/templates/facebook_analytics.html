@@ -1,0 +1,18 @@
+{% extends "navbar.html" %}
+
+
+
+{%block navbar%}
+
+<div class="container my-5">
+<h4>Page Analytics of Facebook</h4>
+{% if pages %}
+    {% for page in pages %}
+        {{ page }}
+    {% endfor %}
+{% else %}
+    <p>No data available</p>
+{% endif %}
+<div>
+
+{%endblock%}
